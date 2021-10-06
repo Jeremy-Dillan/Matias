@@ -1,0 +1,42 @@
+* {
+    font-family: Cambria;
+    color: purple;
+}
+
+p {
+    font-size: 30px;
+    font-family: Georgia;
+    color:white;
+    background-color: red;
+    border-radius: 40px;
+    
+ 
+}
+
+body {
+    background-color:blue;
+}
+
+h1 {
+    font-size: 40px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+img {
+    width: 55%;
+    display: inline block;
+}
+
+img {
+    width: 45%;
+    display: inline block;
+}
+img{
+    width: 35%;
+    display: inline-block;
+}
+
+p{
+    width: 60%;
+}
