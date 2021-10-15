@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Impact;
+    background-color: aqua;
+}
+
+.Flexbox{
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.row{
+    display: flex;
+}
+
+.Column{
+    flex: 1;
+    padding: 10px;
+    height: 300px;
+}
+
+.footer{
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width:600px) {
+    .row{
+        flex-direction: column;
+    }
+}
