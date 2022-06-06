@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <meta charset="utf-8">
+    <title>Nota</title>
+
+    <script>
+        function comprobar(dato) {
+            const numero = Number(dato)
+            let Resultado
+
+            if (numero > 5) {
+                resultado = aprobado
+            } else if (numero < 4.9) {
+                resultado = suspendido
+            }
+            return resultado
+        }
+
+        function verPantalla(resultado) {
+            salida.innerHTML += (`</br>La nota es ${resultado}`);
+        }
+
+        function inicio(dato) {
+            const resultado = comprobar(dato)
+            verPantalla(resultado)
+        }
+    </script>
+    <form name="formu_votacion">
+        Nota: <input type="text" name="entrada">
+        <input type="button" value="Resultado" onclick="inicio(entrada.value)">
+    </form>
+    <div id="salida"></div>
+</body>
+
+</html>
